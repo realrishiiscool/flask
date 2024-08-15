@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Student Information Form</h2>
+    <form action="/stdt_reg" method="POST">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="enrollment_date">Enrollment Date:</label><br>
+        <input type="date" id="enrollment_date" name="enrollment_date" required><br><br>
+
+        <label for="grade_level">Grade Level:</label><br>
+        <input type="number" id="grade_level" name="grade_level" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
